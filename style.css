@@ -66,7 +66,7 @@
     color: #F9FAF8;
 }
 
-button {
+.heroSection button {
     background-color: #3882F6;
     color: white;
     padding: 5px 30px;
@@ -111,8 +111,67 @@ button {
 }
 
 .quoteSection {
+    height: 500px;
     background-color: #E5E7EB;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
+    font-family: 'Roboto';
+    font-style: italic;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quoteContainer {
+    width: 1200px;
+}
+
+.bottomSection {
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBox {
+    width: 1200px;
+    border-radius: 10px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.actionBtn {
+    background-color: #3882F6;
+    border: white solid;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 30px;
+
+}
+
+.blueBoxText p:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
